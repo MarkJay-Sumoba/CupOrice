@@ -1,0 +1,13 @@
+.nav-style {
+    display: flex;
+    flex-direction: row;
+    border-bottom: #FFC000 2px solid;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.logo-style {
+    margin-right: 15px;
+    padding-bottom: 10px;
+}

@@ -1,0 +1,45 @@
+body {background-color: #000000;
+}
+
+header h1 {color: #000000;
+  background-color: #FFD966;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 20pt;
+  text-align: center}
+
+header p {color: #FFFFFF;
+  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+  font-size: 13pt;
+  text-align: center}
+
+body h2 {color: #FFFF00;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 25pt;
+  text-align: center;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+body p {color: #FFFFFF;
+  font-size: 13pt;
+  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+  text-align: center;
+  font-style: italic;
+}
+h3 {color: #FFD966;
+  font-size: 16pt;
+  font-family: Verdana, Geneva, sans-serif;
+  text-align: center;
+}
+ul {color: #FFFFFF;
+font-size: 12pt;
+font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+text-align: center;}
+
+footer p {color: #000000;
+  background-color: #FFD966;
+  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+  font-size: 12pt;
+  text-align: center}

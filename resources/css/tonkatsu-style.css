@@ -1,0 +1,202 @@
+html {
+  font-family:"Montserrat";
+  background-color: black;
+  color: #eec900;
+}
+
+/*-------------------------------------------------*/
+
+.nav-style {
+  display: flex;
+  flex-direction: row;
+  border-bottom: #FFC000 2px solid;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.logo-style {
+  margin-right: 15px;
+  padding-bottom: 10px;
+}
+
+.header-title {
+  color: #FFC000;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+header nav {
+  font-size: 18px;
+  cursor: pointer;
+  text-align: center;
+  color: #FFC000;
+}
+
+header nav a {
+  padding: 20px 50px;
+  text-decoration: none;
+  color: #FFC000
+}
+
+.links a:hover { 
+    color:#FFF;
+}
+
+/*-------------------------------------------------*/
+
+.tonkatsu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #FFF;
+}
+
+.tonkatsu img {
+  margin: 1.5rem 1.5rem;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-right: 2.5rem;
+}
+
+h1 {
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+
+.ingredients {
+  display: flex;
+  flex-direction: row;
+}
+
+.main {
+  margin-right: 5rem;
+}
+
+.text h2 {
+  font-size: 1.5rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+.text p {
+  padding-top: 1rem;
+}
+
+/*-------------------------------------------------*/
+
+.location {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #FFC000;
+  color: #000;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 1.2rem;
+}
+
+/*-------------------------------------------------*/
+
+.icons {
+  text-align: center;
+  color: #FFD966;
+  margin: 0 1rem;
+  padding: 1rem 0;
+  
+}
+
+.icons h2 {
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+/*-------------------------------------------------*/
+
+@media only screen and (min-width: 720px) {
+  .mobile-container {
+    display: none;
+  }  
+
+  .mobile-content {
+    display: none;
+  }
+  }
+
+@media only screen and (min-width: 200px) and (max-width: 600px) {
+  header .nav-style {
+    display: none;
+  }
+
+  .tonkatsu {
+    display: none;
+  }
+
+  .mobile-container {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+  }
+
+  .nav-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 1px solid #eec900;
+  }
+
+  .mobile-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:#FFF;
+  }
+
+  .mobile-content h1 {
+    font-size: 2rem;
+  }
+
+  .mobile-content p {
+    font-size: 1rem;
+    margin: 0 1rem;
+  }
+
+  .ingredients {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 1rem 0rem;
+  }
+
+  .ingredients .main {
+    margin-right: 1rem;
+    text-align: left;
+  }
+
+  .ingredients .topping {
+    text-align: left;
+  }
+
+  .location p {
+    font-size: 0.9rem;
+  }
+
+  h2 {
+    text-transform: uppercase;
+    margin: 1rem 1rem;
+  }
+}
