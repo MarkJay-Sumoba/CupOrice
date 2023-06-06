@@ -126,6 +126,25 @@ h3 {
 
 /*-------------------------------------------------*/
 
+.opening {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #FFD966;
+}
+
+.opening h2 {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.opening p {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  margin-top: 0.1rem;
+}
+
 .icons {
   text-align: center;
   color: #FFD966;

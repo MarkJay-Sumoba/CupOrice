@@ -1,3 +1,5 @@
+/*--------------------Footer-----------------------------*/
+
 .location {
   left: 0;
   bottom: 0;
@@ -9,7 +11,26 @@
   font-size: 1.2rem;
 }
 
-/*-------------------------------------------------*/
+/*----------------------Icons---------------------------*/
+
+.opening {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #FFD966;
+}
+
+.opening h2 {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.opening p {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  margin-top: 0.1rem;
+}
 
 .icons {
   text-align: center;
@@ -24,6 +45,7 @@
   font-size: 1rem;
 }
 
+
 /*----------------copy paste this in html--------------------*/
 
 /*<script src="https://kit.fontawesome.com/f2a316fd56.js" crossorigin="anonymous"></script> <-----copy in the head section*/
@@ -32,6 +54,15 @@
     <div class="location">
         <p>79 Rue Saint-Paul E, Montréal, QC H2Y 3R1 | +1-(514)-CUP-RICE</p>
     </div>
+
+    <div class="opening">
+      <h2>Opening Hours</h2>
+          <p>Mon - Fri</p>
+            <p>11AM - 10PM </p>
+            <p>Sat - Sun</p>
+            <p>11AM - 11PM</p>
+    </div>
+
     <!--------------------------------------------------------------------------------------------->
 
     <div class="icons">

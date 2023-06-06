@@ -1,0 +1,56 @@
+body {
+  font-family:"Montserrat";
+  background-color: black;
+  color: #eec900;
+}
+
+/*-----------------Main Section--------------------------------*/
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #FFF;
+}
+
+.main img {
+  width: 300px;
+  height: auto;
+  margin: 1.5rem 1.5rem;
+  filter: drop-shadow(1.5rem 1rem 0.25rem #161616)
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-right: 2.5rem;
+}
+
+h1 {
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+
+.ingredients {
+  display: flex;
+  flex-direction: row;
+}
+
+.main-ing {
+  margin-right: 5rem;
+}
+
+.text h2 {
+  font-size: 1.5rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+.text p {
+  padding-top: 1rem;
+}
