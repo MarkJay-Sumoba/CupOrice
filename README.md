@@ -3,7 +3,8 @@
 ## ![Hero](./images/hero.jpeg 'Hero')
 
 ## Summary
-Improve Cup-O-Rice restaurant’s website especially the look of the menu. Make the home page more inviting and add more information about the restaurant and the people in the team on the website. 
+
+A static website project in Foundation of Web development course at John Abbott College using HTML and CSS
 
 ##Goals
 
