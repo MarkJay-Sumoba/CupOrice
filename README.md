@@ -1,8 +1,9 @@
-# Introduction 
-Summary
+# CUp-O-Rice
 
+## Summary
 Improve Cup-O-Rice restaurant’s website especially the look of the menu. Make the home page more inviting and add more information about the restaurant and the people in the team on the website. 
-Goals
+
+##Goals
 
 1. Design an inviting home page with the hours and location.
 2. Add an “About Us” page.
@@ -12,12 +13,11 @@ Goals
 
 
 # Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Designing a layout of the home/menu page
+
+-	Designing a layout of the home/menu page
 
 # Build and Test
 Validate and Debug HTML & CSS codes using validation tool in https://www.w3schools.com/
 
-# Contribute
 
 
